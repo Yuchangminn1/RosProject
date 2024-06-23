@@ -1,0 +1,34 @@
+[0.298s] Invoking command in '/home/cm23/ros2_ws/build/mobile_robot_description': /usr/bin/cmake /home/cm23/ros2_ws/src/mobile_robot_description -DCMAKE_INSTALL_PREFIX=/home/cm23/ros2_ws/install/mobile_robot_description
+[0.311s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.446s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.447s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.503s] Error parsing '/home/cm23/ros2_ws/src/mobile_robot_description/package.xml':
+[0.545s] Traceback (most recent call last):
+[0.545s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.545s]     main()
+[0.545s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.545s]     raise e
+[0.545s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.545s]     package = parse_package_string(
+[0.545s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.545s]     pkg.validate(warnings=warnings)
+[0.545s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.545s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.546s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/cm23/ros2_ws/src/mobile_robot_description/package.xml':
+[0.546s] Package name "mobile_robot_descripticylinder.launch.pyon" does not follow naming conventions
+[0.556s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.556s]   execute_process(/usr/bin/python3
+[0.556s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.556s]   /home/cm23/ros2_ws/src/mobile_robot_description/package.xml
+[0.556s]   /home/cm23/ros2_ws/build/mobile_robot_description/ament_cmake_core/package.cmake)
+[0.556s]   returned error code 1
+[0.556s] Call Stack (most recent call first):
+[0.556s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.557s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.557s]   CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies)
+[0.557s] 
+[0.557s] [0m
+[0.557s] -- Configuring incomplete, errors occurred!
+[0.557s] See also "/home/cm23/ros2_ws/build/mobile_robot_description/CMakeFiles/CMakeOutput.log".
+[0.582s] Invoked command in '/home/cm23/ros2_ws/build/mobile_robot_description' returned '1': /usr/bin/cmake /home/cm23/ros2_ws/src/mobile_robot_description -DCMAKE_INSTALL_PREFIX=/home/cm23/ros2_ws/install/mobile_robot_description

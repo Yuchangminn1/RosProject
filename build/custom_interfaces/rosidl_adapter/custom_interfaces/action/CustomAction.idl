@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/CustomAction.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "The desired heading in radians")
+    struct CustomAction_Goal {
+      float theta;
+    };
+    @verbatim (language="comment", text=
+      "The angular displacement in radians to the starting position")
+    struct CustomAction_Result {
+      float delta;
+    };
+    @verbatim (language="comment", text=
+      "The remaining rotation in radians")
+    struct CustomAction_Feedback {
+      float remaining;
+    };
+  };
+};

@@ -1,0 +1,5 @@
+[console_scripts]
+listener = py_pubsub.subscriber_member_function:main
+talker = py_pubsub.publisher_member_function:main
+tf2_broadcaster = py_pubsub.tf2_broadcaster:main
+

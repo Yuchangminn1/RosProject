@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating custom_pkg.egg-info
+writing custom_pkg.egg-info/PKG-INFO
+writing dependency_links to custom_pkg.egg-info/dependency_links.txt
+writing entry points to custom_pkg.egg-info/entry_points.txt
+writing requirements to custom_pkg.egg-info/requires.txt
+writing top-level names to custom_pkg.egg-info/top_level.txt
+writing manifest file 'custom_pkg.egg-info/SOURCES.txt'
+reading manifest file 'custom_pkg.egg-info/SOURCES.txt'
+writing manifest file 'custom_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cm23/ros2_ws/install/custom_pkg/lib/python3.10/site-packages/custom-pkg.egg-link (link to .)
+Installing pose_and_cmd_vel script to /home/cm23/ros2_ws/install/custom_pkg/lib/custom_pkg
+Installing pose_turtle_server script to /home/cm23/ros2_ws/install/custom_pkg/lib/custom_pkg
+Installing spawn_turtle_client script to /home/cm23/ros2_ws/install/custom_pkg/lib/custom_pkg
+
+Installed /home/cm23/ros2_ws/build/custom_pkg
+running symlink_data
+creating /home/cm23/ros2_ws/install/custom_pkg/share/ament_index
+creating /home/cm23/ros2_ws/install/custom_pkg/share/ament_index/resource_index
+creating /home/cm23/ros2_ws/install/custom_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/cm23/ros2_ws/build/custom_pkg/resource/custom_pkg -> /home/cm23/ros2_ws/install/custom_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/cm23/ros2_ws/build/custom_pkg/package.xml -> /home/cm23/ros2_ws/install/custom_pkg/share/custom_pkg
+creating /home/cm23/ros2_ws/install/custom_pkg/share/custom_pkg/launch
+symbolically linking /home/cm23/ros2_ws/build/custom_pkg/launch/run_my_nodes.launch.py -> /home/cm23/ros2_ws/install/custom_pkg/share/custom_pkg/launch

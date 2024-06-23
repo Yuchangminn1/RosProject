@@ -1,0 +1,5 @@
+[console_scripts]
+pose_and_cmd_vel = custom_pkg.pose_and_cmd_vel:main
+pose_turtle_server = custom_pkg.pose_turtle_server:main
+spawn_turtle_client = custom_pkg.spawn_turtle_client:main
+

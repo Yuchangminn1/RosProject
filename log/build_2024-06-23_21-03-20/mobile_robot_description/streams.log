@@ -1,0 +1,40 @@
+[0.300s] Invoking command in '/home/cm23/ros2_ws/build/mobile_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cm23/ros2_ws/install/learning_tf2_py:/home/cm23/ros2_ws/install/py_pubsub:/home/cm23/ros2_ws/install/custom_pkg:/opt/ros/humble /usr/bin/cmake /home/cm23/ros2_ws/src/mobile_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cm23/ros2_ws/install/mobile_robot_description
+[0.312s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.450s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.451s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.524s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.528s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.528s] -- Added test 'lint_cmake' to check CMake code style
+[0.529s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.531s] -- Added test 'xmllint' to check XML markup files
+[0.532s] -- Configuring done
+[0.536s] -- Generating done
+[0.537s] -- Build files have been written to: /home/cm23/ros2_ws/build/mobile_robot_description
+[0.584s] Invoked command in '/home/cm23/ros2_ws/build/mobile_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cm23/ros2_ws/install/learning_tf2_py:/home/cm23/ros2_ws/install/py_pubsub:/home/cm23/ros2_ws/install/custom_pkg:/opt/ros/humble /usr/bin/cmake /home/cm23/ros2_ws/src/mobile_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cm23/ros2_ws/install/mobile_robot_description
+[0.585s] Invoking command in '/home/cm23/ros2_ws/build/mobile_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cm23/ros2_ws/install/learning_tf2_py:/home/cm23/ros2_ws/install/py_pubsub:/home/cm23/ros2_ws/install/custom_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cm23/ros2_ws/build/mobile_robot_description -- -j16 -l16
+[0.628s] Invoked command in '/home/cm23/ros2_ws/build/mobile_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cm23/ros2_ws/install/learning_tf2_py:/home/cm23/ros2_ws/install/py_pubsub:/home/cm23/ros2_ws/install/custom_pkg:/opt/ros/humble /usr/bin/cmake --build /home/cm23/ros2_ws/build/mobile_robot_description -- -j16 -l16
+[0.665s] Invoking command in '/home/cm23/ros2_ws/build/mobile_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cm23/ros2_ws/install/learning_tf2_py:/home/cm23/ros2_ws/install/py_pubsub:/home/cm23/ros2_ws/install/custom_pkg:/opt/ros/humble /usr/bin/cmake --install /home/cm23/ros2_ws/build/mobile_robot_description
+[0.673s] -- Install configuration: ""
+[0.674s] -- Execute custom install script
+[0.674s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/launch/cylinder.launch.py
+[0.674s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/launch/mobile_robot.launch.py
+[0.675s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/rviz/display.rviz
+[0.675s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/urdf/basic_mobile_robot.urdf
+[0.675s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/urdf/cylinder.urdf
+[0.675s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/ament_index/resource_index/package_run_dependencies/mobile_robot_description
+[0.676s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/ament_index/resource_index/parent_prefix_path/mobile_robot_description
+[0.676s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/environment/ament_prefix_path.sh
+[0.676s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/environment/ament_prefix_path.dsv
+[0.676s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/environment/path.sh
+[0.676s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/environment/path.dsv
+[0.677s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/local_setup.bash
+[0.677s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/local_setup.sh
+[0.677s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/local_setup.zsh
+[0.677s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/local_setup.dsv
+[0.677s] -- Symlinking: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/package.dsv
+[0.688s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/ament_index/resource_index/packages/mobile_robot_description
+[0.689s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/cmake/mobile_robot_descriptionConfig.cmake
+[0.689s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/cmake/mobile_robot_descriptionConfig-version.cmake
+[0.689s] -- Up-to-date symlink: /home/cm23/ros2_ws/install/mobile_robot_description/share/mobile_robot_description/package.xml
+[0.691s] Invoked command in '/home/cm23/ros2_ws/build/mobile_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cm23/ros2_ws/install/learning_tf2_py:/home/cm23/ros2_ws/install/py_pubsub:/home/cm23/ros2_ws/install/custom_pkg:/opt/ros/humble /usr/bin/cmake --install /home/cm23/ros2_ws/build/mobile_robot_description

@@ -1,0 +1,29 @@
+[0.933s] Invoking command in '/home/cm23/ros2_ws/build/learning_tf2_py': PYTHONPATH=/home/cm23/ros2_ws/build/learning_tf2_py/prefix_override:/home/cm23/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cm23/ros2_ws/build/learning_tf2_py/build --no-deps symlink_data
+[1.214s] running develop
+[1.214s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.214s]   warnings.warn(
+[1.418s] running egg_info
+[1.418s] creating learning_tf2_py.egg-info
+[1.419s] writing learning_tf2_py.egg-info/PKG-INFO
+[1.419s] writing dependency_links to learning_tf2_py.egg-info/dependency_links.txt
+[1.419s] writing entry points to learning_tf2_py.egg-info/entry_points.txt
+[1.419s] writing requirements to learning_tf2_py.egg-info/requires.txt
+[1.420s] writing top-level names to learning_tf2_py.egg-info/top_level.txt
+[1.420s] writing manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[1.420s] reading manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[1.421s] writing manifest file 'learning_tf2_py.egg-info/SOURCES.txt'
+[1.421s] running build_ext
+[1.421s] Creating /home/cm23/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning-tf2-py.egg-link (link to .)
+[1.422s] Installing static_turtle_tf2_broadcaster script to /home/cm23/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.423s] Installing turtle_tf2_broadcaster script to /home/cm23/ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.423s] 
+[1.424s] Installed /home/cm23/ros2_ws/build/learning_tf2_py
+[1.424s] running symlink_data
+[1.424s] creating /home/cm23/ros2_ws/install/learning_tf2_py/share/ament_index
+[1.424s] creating /home/cm23/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index
+[1.425s] creating /home/cm23/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[1.425s] symbolically linking /home/cm23/ros2_ws/build/learning_tf2_py/resource/learning_tf2_py -> /home/cm23/ros2_ws/install/learning_tf2_py/share/ament_index/resource_index/packages
+[1.425s] symbolically linking /home/cm23/ros2_ws/build/learning_tf2_py/package.xml -> /home/cm23/ros2_ws/install/learning_tf2_py/share/learning_tf2_py
+[1.425s] creating /home/cm23/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.426s] symbolically linking /home/cm23/ros2_ws/build/learning_tf2_py/launch/tf2_learning.launch.py -> /home/cm23/ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.444s] Invoked command in '/home/cm23/ros2_ws/build/learning_tf2_py' returned '0': PYTHONPATH=/home/cm23/ros2_ws/build/learning_tf2_py/prefix_override:/home/cm23/ros2_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cm23/ros2_ws/build/learning_tf2_py/build --no-deps symlink_data

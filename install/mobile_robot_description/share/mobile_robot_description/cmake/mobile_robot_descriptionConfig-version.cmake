@@ -1,0 +1,1 @@
+/home/cm23/ros2_ws/build/mobile_robot_description/ament_cmake_core/mobile_robot_descriptionConfig-version.cmake

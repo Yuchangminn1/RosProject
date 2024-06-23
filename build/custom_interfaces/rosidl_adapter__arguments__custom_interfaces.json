@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/cm23/ros2_ws/src/custom_interfaces:msg/CustomMessage.msg",
+    "/home/cm23/ros2_ws/src/custom_interfaces:srv/CustomService.srv",
+    "/home/cm23/ros2_ws/src/custom_interfaces:action/CustomAction.action"
+  ]
+}
